@@ -12,6 +12,7 @@ references:
       MYSQL_DATABASE: circleci_test
       MYSQL_PASSWORD: ""
       MYSQL_HOST: localhost
+      MYSQL_PORT: 3306
   mysql: &mysql
     image: circleci/mysql:5.7
     environment:
