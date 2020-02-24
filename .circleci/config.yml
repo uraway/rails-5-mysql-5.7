@@ -14,6 +14,8 @@ references:
       MYSQL_HOST: localhost
   mysql: &mysql
     image: circleci/mysql:5.7
+    environment:
+      MYSQL_HOST: localhost
 
 jobs:
   build:
